@@ -31,22 +31,22 @@ const Contact = () => {
       <hr className="mx-8" />
       <div className="mx-8 my-12 text-center">
         <p className="font-bold text-blue-600">
-          Email ID :{" "}
+          Email ID : {" "}
           <a target="_blank" href="mailto:surajkales@outlook.com" className="text-white underline hover:text-green-600">surajkales@outlook.com</a>
         </p>
       </div>
       <hr />
-      <div className="flex justify-center gap-x-14 h-fit px-2 py-1 mt-2 rounded-md">
-          <a target="_blank" href="/">
+      <div className="flex justify-center gap-x-14 h-fit px-2 py-1 mt-2 rounded-md mb-2">
+          <a target="_blank" href="/" className="contact-icons px-2 py-1 rounded-sm">
             <FaGithub className="hover:text-gray-600" />
           </a>
-          <a target="_blank" href="/">
+          <a target="_blank" href="/" className="contact-icons px-2 py-1 rounded-sm">
             <FaFacebook className="hover:text-blue-700 rounded-sm" />
           </a>
-          <a target="_blank" href="/">
+          <a target="_blank" href="/" className="contact-icons px-2 py-1 rounded-sm">
             <FaInstagram className="hover:text-red-600" />
           </a>
-          <a target="_blank" href="/">
+          <a target="_blank" href="/" className="contact-icons px-2 py-1 rounded-sm">
             <FaWhatsapp className="hover:text-green-700" />
           </a>
         </div>

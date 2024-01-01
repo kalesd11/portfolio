@@ -35,6 +35,11 @@ body{
     box-shadow: -2px -2px 7px white,
     2px 2px 5px black;
 }
+.contact-icons{
+    background-color: #c1c1c1;
+    box-shadow: inset -2px -2px 7px white,
+    inset 2px 2px 5px black;
+}
 a{
     transition: .5s;
 }
