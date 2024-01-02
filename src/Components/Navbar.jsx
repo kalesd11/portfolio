@@ -59,26 +59,26 @@ const Navbar = () => {
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
                 <Link
-                  to="/"
+                  to="/portfolio"
                   className="bg-blue-500 text-white rounded-md px-3 py-2 text-sm font-medium home"
                   aria-current="page"
                 >
                   Dashboard
                 </Link>
                 <Link
-                  to="/skills"
+                  to="/portfolio/skills"
                   className="text-gray-500 hover:bg-blue-600 hover:text-white rounded-md px-3 py-2 text-sm font-medium home"
                 >
                   Skills
                 </Link>
                 <Link
-                  to="/projects"
+                  to="/portfolio/projects"
                   className="text-gray-500 hover:bg-blue-600 hover:text-white rounded-md px-3 py-2 text-sm font-medium home"
                 >
                   Projects
                 </Link>
                 <Link
-                  to="/contact"
+                  to="/portfolio/contact"
                   className="text-gray-500 hover:bg-blue-600 hover:text-white rounded-md px-3 py-2 text-sm font-medium home"
                 >
                   Connect Me
@@ -115,33 +115,33 @@ const Navbar = () => {
                 tabIndex="-1"
                 hidden={showUserMenu}
               >
-                <a
-                  href="/"
+                <Link
+                  to="/"
                   className="block nav px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 rounded-md"
                   role="menuitem"
                   tabIndex="-1"
                   id="user-menu-item-0"
                 >
                   Your Profile
-                </a>
-                <a
-                  href="/"
+                </Link>
+                <Link
+                  to="/"
                   className="block nav px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 rounded-md"
                   role="menuitem"
                   tabIndex="-1"
                   id="user-menu-item-1"
                 >
                   Settings
-                </a>
-                <a
-                  href="/"
+                </Link>
+                <Link
+                  to="/"
                   className="block nav px-4 py-2 text-sm text-gray-700 hover:bg-blue-50 rounded-md"
                   role="menuitem"
                   tabIndex="-1"
                   id="user-menu-item-2"
                 >
                   Sign out
-                </a>
+                </Link>
               </div>
             </div>
           </div> */}
@@ -153,31 +153,31 @@ const Navbar = () => {
         id="mobile-menu"
       >
         <div className="space-y-1 px-2 pb-3 pt-2">
-          <a
-            href="/"
+          <Link
+            to="/portfolio"
             className="bg-blue-500 nav text-white block rounded-md px-3 py-2 text-base font-semibold"
             aria-current="page"
           >
             Dashboard
-          </a>
-          <a
-            href="/skills"
+          </Link>
+          <Link
+            to="/portfolio/skills"
             className="text-gray-600 nav hover:bg-blue-600 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
           >
             Skills
-          </a>
-          <a
-            href="/projects"
+          </Link>
+          <Link
+            to="/portfolio/projects"
             className="text-gray-600 nav hover:bg-blue-600 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
           >
             Projects
-          </a>
-          <a
-            href="/contact"
+          </Link>
+          <Link
+            to="/portfolio/contact"
             className="text-gray-600 nav hover:bg-blue-600 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
           >
             Connect Me
-          </a>
+          </Link>
         </div>
       </div>
     </nav>

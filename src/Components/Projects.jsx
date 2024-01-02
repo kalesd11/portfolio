@@ -6,7 +6,7 @@ const Projects = () => {
       <div className="max-w-sm rounded-md overflow-hidden nav">
         <img
           className="w-full"
-          src="/wp6350578-desktop-web-development-wallpapers.jpg"
+          src="project.jpg"
           alt="Sunset in the mountains"
         />
         <div className="px-6 py-4">
@@ -57,7 +57,7 @@ const Projects = () => {
       <div className="max-w-sm rounded-md overflow-hidden nav">
         <img
           className="w-full"
-          src="/wp6350578-desktop-web-development-wallpapers.jpg"
+          src="project.jpg"
           alt="Sunset in the mountains"
         />
         <div className="px-6 py-4">
@@ -95,7 +95,7 @@ const Projects = () => {
       <div className="max-w-sm rounded-md overflow-hidden nav">
         <img
           className="w-full"
-          src="/wp6350578-desktop-web-development-wallpapers.jpg"
+          src="project.jpg"
           alt="Sunset in the mountains"
         />
         <div className="px-6 py-4">
@@ -136,7 +136,7 @@ const Projects = () => {
       <div className="max-w-sm rounded-md overflow-hidden nav">
         <img
           className="w-full"
-          src="/wp6350578-desktop-web-development-wallpapers.jpg"
+          src="project.jpg"
           alt="Sunset in the mountains"
         />
         <div className="px-6 py-4">
@@ -183,7 +183,7 @@ const Projects = () => {
       <div className="max-w-sm rounded-md overflow-hidden nav">
         <img
           className="w-full"
-          src="/wp6350578-desktop-web-development-wallpapers.jpg"
+          src="project.jpg"
           alt="Sunset in the mountains"
         />
         <div className="px-6 py-4">
@@ -236,7 +236,7 @@ const Projects = () => {
       <div className="max-w-sm rounded-md overflow-hidden nav">
         <img
           className="w-full"
-          src="/wp6350578-desktop-web-development-wallpapers.jpg"
+          src="project.jpg"
           alt="Sunset in the mountains"
         />
         <div className="px-6 py-4">
